@@ -1,0 +1,201 @@
+body{
+    background-color: rgb(218,165,32, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+#users{
+    display:flex;
+    flex-direction: column;
+}
+
+#user{
+    display:flex;
+    flex-direction: row;
+}
+
+#top_screen{
+    height: 500px;
+    display: flex;
+}
+
+#left_screen{
+    margin: 0 5px 5px 0;
+    flex: 1;
+    background: url('game.jpg') no-repeat;
+    
+}
+
+#right_screen{
+    background-color: rgb(218,165,32, 0.4);
+    flex: 1;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+#messages{
+    padding: 0 0 0 50px;
+    height: 450px;
+    overflow-y: scroll;
+
+}
+
+.last_message{
+    color: rgb(255, 115, 0);
+}
+
+#deconnexion{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#deconnexion>button{
+    background-color: rgba(250, 39, 39, 0.801);
+    color: white;
+    font-weight: bold;
+}
+
+#bottom_screen{
+    background-color: rgb(218,165,32, 0.4);
+    display: flex;
+    flex-direction: row;
+    height: 240px;
+    border: 2px solid black;
+}
+
+
+#infos{
+    padding: 10px;
+    flex:3;
+}
+
+#menu{
+    flex:2;
+    border-left: 2px solid black;
+}
+
+
+#perso{
+    flex: 1;
+}
+
+#monster{
+    flex: 1;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+#title>td{
+    font-weight: bold;
+}
+
+td{
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#list_monsters{
+    margin: 0 auto;
+    width: 150px;
+}
+
+#monsters{
+    margin-top: 20px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#monsters>input{
+    margin: 0;
+}
+
+.monster_training{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#monster{
+    margin-top: 10px;
+}
+
+#titre_actions{
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+#actions{
+    padding: 15px 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#titre_objects{
+    margin-top: 20px;
+}
+
+#objects{
+    border-top: 1px solid black;
+    margin-top: 20px;
+    padding: 18px 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#potion_button{
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 25px 10px 25px 10px;
+    border-radius: 50px;
+}
+
+#potion_button:hover{
+    color: green;
+}
+
+#vide{
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 33px;
+    border-radius: 50px;
+}
+
+#attack_button{
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 40px 18px 40px 17px;
+    border-radius: 50px;
+}
+
+#attack_button:hover{
+    color: red;
+}
+
+#defense_button{
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 40px 10px 40px 10px;
+    border-radius: 50px;
+}
+
+#defense_button:hover{
+    color: green;
+}
+
+#fuite_button{
+    border: 2px solid black;
+    font-weight: bold;
+    padding: 40px 36px 40px 36px;
+    border-radius: 50px;
+}
+
+#fuite_button:hover{
+    color: blue;
+}
